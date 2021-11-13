@@ -2,4 +2,10 @@
 <resources>
     <dimen name="splash_logo_width">120dp</dimen>
     <dimen name="splash_logo_height">120dp</dimen>
+    <dimen name="constraint_space">16dp</dimen>
+    <dimen name="sub_header_text_size">18sp</dimen>
+    <dimen name="header_text_size">32sp</dimen>
+    <dimen name="currency_item_height">100dp</dimen>
+    <dimen name="image_currency_width">135dp</dimen>
+    <dimen name="image_currency_height">100dp</dimen>
 </resources>

@@ -11,9 +11,11 @@ import android.view.animation.OvershootInterpolator
 import androidx.constraintlayout.widget.ConstraintSet
 import androidx.core.transition.doOnEnd
 import com.serranoie.crypteck.databinding.ActivitySplashBinding
+import com.serranoie.crypteck.homescreen.HomeActivity
 import com.serranoie.crypteck.utils.Constants
+import dagger.hilt.android.HiltAndroidApp
 
-class SplashActivity : AppCompatActivity() {
+class SplashActivity: AppCompatActivity() {
 
     private lateinit var binding: ActivitySplashBinding
 
