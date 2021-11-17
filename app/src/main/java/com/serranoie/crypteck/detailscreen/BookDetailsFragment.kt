@@ -8,9 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.serranoie.crypteck.R
 import com.serranoie.crypteck.detailscreen.viewmodel.BookDetailsViewModel
+import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.HiltAndroidApp
 
-@HiltAndroidApp
+@AndroidEntryPoint
 class BookDetailsFragment : Fragment() {
 
     private lateinit var viewModel: BookDetailsViewModel

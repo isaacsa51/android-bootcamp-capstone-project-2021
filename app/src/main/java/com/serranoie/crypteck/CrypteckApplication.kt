@@ -7,22 +7,22 @@ import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
 
 @HiltAndroidApp
-class CrypteckApplication: Application(), Configuration.Provider {
+class CrypteckApplication: Application() {
 
-    @Inject
-    lateinit var workerFactory: HiltWorkerFactory
-
-    override fun getWorkManagerConfiguration() =
-        Configuration.Builder()
-            .setWorkerFactory(workerFactory)
-            .build()
-
-    companion object {
-        var instance: CrypteckApplication? = null
-    }
-
-    override fun onCreate() {
-        super.onCreate()
-        instance = this
-    }
+//    @Inject
+//    lateinit var workerFactory: HiltWorkerFactory
+//
+//    override fun getWorkManagerConfiguration() =
+//        Configuration.Builder()
+//            .setWorkerFactory(workerFactory)
+//            .build()
+//
+//    companion object {
+//        var instance: CrypteckApplication? = null
+//    }
+//
+//    override fun onCreate() {
+//        super.onCreate()
+//        instance = this
+//    }
 }
